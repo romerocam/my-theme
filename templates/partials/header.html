@@ -1,0 +1,31 @@
+<!--
+    templateType: global_partial
+    label: Header Global partial
+    isAvailableForNewContent: false
+-->
+<!-- Begin partial -->
+<header>
+<a href="#main-content" class="header__skip">Skip to content</a>
+<div class="header">
+  
+      <div class="header_logo">
+        <img src="{{ resize_image_url(brandSettings.primaryLogo.src, 600) }}" alt="{{ brandSettings.primaryLogo.alt }}" width="{{ brandSettings.primaryLogo.width }}" height="{{ brandSettings.primaryLogo.height }}">
+          {% module "text"
+            path="@hubspot/text",
+            value="Tasty FOOD" %}
+        
+      </div>
+  
+  <div class="links">
+        <ul style="list-style: none;padding-left: 0px;">
+          <li>
+          <a href="#first-section" target="_blank" rel="noopener">First </a>
+          </li>
+          <li>
+          <a href="#second-section" target="_blank" rel="noopener">Second </a>
+          </li>
+        </ul>
+  </div>
+ </div>
+</header>
+<!-- End partial -->

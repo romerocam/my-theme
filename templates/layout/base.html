@@ -1,0 +1,42 @@
+<!--
+    templateType: none
+-->
+<!--
+    templateType: page
+    label: home page
+    isAvailableForNewContent: true
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ content.html_title }}</title>
+    <meta name="description" content="{{ content.meta_description }}" />
+    <link rel="preconnect">
+    {{ require_css(get_asset_url("../../css/main.css"),{position:'footer', defer:'true'}) }}
+    {{ require_css(get_asset_url("../../css/theme-overrides.css"),{position:'footer', defer:'true'}) }}
+
+    {{ standard_header_includes }}
+  </head>
+  <body>
+  <div class="page-wrap">
+          {% block header %}
+            {% global_partial
+            path="../partials/header.html" %}
+          {% endblock header %}
+      
+          <main id="main-content">
+            {% block body %}
+            {% endblock body %}
+          </main>
+            
+            
+            {% block footer %}
+              {% global_partial
+              path="../partials/footer.html" %}
+            {% endblock footer %} 
+  </div>
+    {{ standard_footer_includes }}
+  </body>
+</html>
+

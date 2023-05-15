@@ -1,0 +1,111 @@
+[
+    {
+     "label": "Header and Footer",
+     "name": "header_and_footer",
+     "type": "group",
+     "children": [
+     {
+         "label": "Header and Footer Background Color",
+         "name": "background_color",
+         "type": "color",
+          "visibility": {
+           "hidden_subfields": {
+             "opacity": true
+           }
+         },
+         "inherited_value": {
+           "property_value_paths": {
+             "color": "brandSettings.primaryColor"
+           }
+         },
+         "default": {
+           "color": "#494A52"
+         }
+     
+     }
+       ]
+    },
+    {
+     "label": "Global colors",
+     "name": "global_colors",
+     "type": "group",
+     "children": [
+       {
+         "label": "Primary",
+         "name": "primary",
+         "type": "color",
+         "visibility": {
+           "hidden_subfields": {
+             "opacity": true
+           }
+         },
+         "inherited_value": {
+           "property_value_paths": {
+             "color": "brandSettings.primaryColor"
+           }
+         },
+         "default": {
+           "color": "#494A52"
+         }
+       },
+       {
+         "label": "Secondary",
+         "name": "secondary",
+         "type": "color",
+         "visibility": {
+           "hidden_subfields": {
+             "opacity": true
+           }
+         },
+         "inherited_value": {
+           "property_value_paths": {
+             "color": "brandSettings.colors[1]"
+           }
+         },
+         "default": {
+           "color": "#F8FAFC"
+         }
+       },
+             {
+         "label": "Tertiary",
+         "name": "tertiary",
+         "type": "color",
+         "visibility": {
+           "hidden_subfields": {
+             "opacity": true
+           }
+         },
+         "inherited_value": {
+           "property_value_paths": {
+             "color": "brandSettings.colors[2]"
+           }
+         },
+         "default": {
+           "color": "#f2ff00"
+         }
+       }
+     ]
+   },
+     {
+         "label": "font_field",
+         "name": "font_field",
+         "required": false,
+         "locked": false,
+         "inline_help_text": "",
+         "help_text": "",
+         "load_external_fonts": true,
+         "type": "font",
+         "default": {
+             "size": 12,
+             "font":"Merriweather",
+             "font_set":"GOOGLE",
+             "size_unit": "px",
+             "color": "#000",
+             "styles": { }
+             }
+     }
+     
+     
+     
+      
+ ]

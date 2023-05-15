@@ -1,0 +1,47 @@
+[
+  {
+   "default": {
+    "size_type": "exact",
+    "src": "https://23585492.fs1.hubspotusercontent-na1.net/hubfs/23585492/tato-13.jpg",
+    "alt": "Pulled Pork Sub",
+    "loading": "disabled",
+    "width": 250,
+    "height": 167,
+    "max_width": 250,
+    "max_height": 167
+   },
+   "display_width": null,
+   "id": "87cd618a-09da-db7f-0e39-e256d41f0a5d",
+   "label": "Image",
+   "locked": false,
+   "name": "image_field",
+   "required": false,
+   "resizable": true,
+   "responsive": false,
+   "show_loading": false,
+   "type": "image"
+  },
+  {
+   "allow_new_line": false,
+   "default": "Greatest Foodie web site! Search for your favourite food pics and share your best pics",
+   "display_width": null,
+   "id": "26407780-bab6-c2e3-2489-77fb3329e32f",
+   "label": "Text",
+   "locked": false,
+   "name": "text_field",
+   "required": false,
+   "show_emoji_picker": false,
+   "type": "text",
+   "validation_regex": ""
+  },
+  {
+   "default": "<span style=\"color: black;\">Get to know the best trendy places for foodies around the world! Enjoy the ride!</span>",
+   "display_width": null,
+   "id": "01208e87-ae32-f6d6-4a0f-7692aacd2b6d",
+   "label": "Description",
+   "locked": false,
+   "name": "description",
+   "required": false,
+   "type": "richtext"
+  }
+ ]

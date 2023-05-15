@@ -1,0 +1,22 @@
+<!--
+    templateType: page
+    label: home page
+    isAvailableForNewContent: true
+-->
+{% extends  './layout/base.html' %}
+
+{% block body %}
+      {% dnd_area "dnd_area" %}
+        {% include_dnd_partial
+          path="../sections/section.html",
+          context={
+            "content": "<h1>Welcome!</h1>"
+          } %}
+      {% end_dnd_area %}
+      
+      {% dnd_area "dnd_area2" %}
+        {% include_dnd_partial
+          path="../sections/foodie.html"
+        %}
+      {% end_dnd_area %}
+{% endblock body %}

@@ -1,0 +1,127 @@
+ [
+    {
+     "children": [
+      {
+       "default": {
+        "src": "https://23585492.fs1.hubspotusercontent-na1.net/hubfs/23585492/tato-13.jpg",
+        "size_type": "exact",
+        "alt": "Pulled pork sub",
+        "width": 250,
+        "height": 167,
+        "max_width": 250,
+        "max_height": 167,
+        "loading": "lazy"
+       },
+       "display_width": null,
+       "id": "854158f8-6ef2-6545-6bac-437c2acddbb1",
+       "label": "Image",
+       "locked": false,
+       "name": "image",
+       "required": false,
+       "resizable": true,
+       "responsive": false,
+       "show_loading": false,
+       "type": "image"
+      },
+      {
+       "allow_new_line": false,
+       "default": "Title",
+       "display_width": null,
+       "id": "f9736637-449e-fb28-92e3-db33615c7a9a",
+       "label": "Title",
+       "locked": false,
+       "name": "title",
+       "required": true,
+       "show_emoji_picker": false,
+       "type": "text",
+       "validation_regex": ""
+      },
+      {
+       "allow_new_line": false,
+       "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet sapien sed efficitur ",
+       "display_width": null,
+       "id": "48792a2c-3377-4a0a-0070-e1a893ae82b3",
+       "label": "Text",
+       "locked": false,
+       "name": "text",
+       "required": false,
+       "show_emoji_picker": false,
+       "type": "text",
+       "validation_regex": ""
+      }
+     ],
+     "default": [
+      {
+       "image": {
+        "src": "https://23585492.fs1.hubspotusercontent-na1.net/hubfs/23585492/tato-13.jpg",
+        "size_type": "exact",
+        "alt": "Pulled pork sub",
+        "width": 250,
+        "height": 167,
+        "max_width": 250,
+        "max_height": 167,
+        "loading": "lazy"
+       },
+       "title": "Title",
+       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet sapien sed efficitur "
+      }
+     ],
+     "display_width": null,
+     "expanded": false,
+     "id": "2b5f72ac-f597-4e6c-3088-8ec5d34d42a2",
+     "label": "Card",
+     "locked": false,
+     "name": "card",
+     "occurrence": {
+      "default": 1,
+      "min": 1,
+      "sorting_label_field": "f9736637-449e-fb28-92e3-db33615c7a9a"
+     },
+     "required": false,
+     "tab": "CONTENT",
+     "type": "group"
+  },
+  {
+    "type": "group",
+    "isNew": false,
+    "name": "style",
+    "label": "Style",
+    "tab": "STYLE",
+    "id": "97f692b8-e39a-6adc-dd01-516395495f66",
+    "children": [
+     {
+      "type": "group",
+      "id": "1d0d6998-9dca-778d-5342-5567650a330c",
+      "label": "Style group",
+      "children": [
+       {
+        "type": "color",
+        "id": "8b437dff-0198-9e6d-8153-04c4612b6e97",
+        "default": {
+         "color": "#000000",
+         "opacity": 100
+        },
+        "label": "Text Color",
+        "name": "text_color"
+       }
+      ],
+      "name": "field_group",
+      "default": {
+       "text_color": {
+        "color": "#000000",
+        "opacity": 100
+       }
+      }
+     }
+    ],
+    "default": {
+     "field_group": {
+      "text_color": {
+       "color": "#000000",
+       "opacity": 100
+      }
+     }
+    }
+   }
+ ]
+ 
