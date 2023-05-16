@@ -1,14 +1,14 @@
 defaultPortal: JCR
 portals:
   - name: JCR
-    portalId: 23585492
+    portalId: HUBSPOT_PORTAL_ID
     authType: personalaccesskey
     auth:
       tokenInfo:
         accessToken: >-
-          CNbjiNiAMRILAA0AAAAA4A0DQAIY1MWfCyDejZwXKO7pDDIUh8jyCiULWJAlVP9ya-4vWd8HRa46NwAABEEAAAB4AAAAAAAAAAAAAAAAAAAABAAAwAcA_v8xPAAABgBEAGAAAAAAAAAAAAAAAAAAMAJCFJJ7tqEEAEqhv4vKSZKdX9ebDptCSgNuYTFSAFoA
-        expiresAt: '2023-05-11T13:31:13.260Z'
+         HUBSPOT_CLIENT_ID
+        expiresAt: '2023-05-16T12:13:40.569Z'
     personalAccessKey: >-
-      CiQ0MjM0MDJlYi1jMmQwLTQ5ZTktOTVmYy1kZDgyM2QyNzg4ZGUQ1MWfCxjejZwXKhkABeaRgmNnjfD2pbpV_BjGZUh9CUq4IMX4SgNuYTE
+      HUBSPOT_PERSONAL_ACCESS_KEY
     sandboxAccountType: null
     parentAccountId: null
