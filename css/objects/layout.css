@@ -1,7 +1,6 @@
 {% set total_columns_count = 12 %}
 
 /* CSS variables */
-
 :root {
   --column-gap: 2.13%;
   --column-width-multiplier: 8.333;
