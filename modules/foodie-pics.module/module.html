@@ -3,7 +3,7 @@
   {% for item in module.card %}
   <div class="image">
     {% if item.image.src %}
-        {# {% set sizeAttrs = "width=\"250\" height=\"167\"" %}
+      {# {% set sizeAttrs = "width=\"250\" height=\"167\"" %}
          % if item.image.size_type == "auto" %}
         {% set sizeAttrs = "width=\"{{ item.image.width }}\" height=\"{{ item.image.height }}\" style=\"max-width: 100%; height: auto;\"" %}
       {% elif item.image.size_type == "auto_custom_max" %}
