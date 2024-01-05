@@ -9,7 +9,7 @@
       {% elif item.image.size_type == "auto_custom_max" %}
         {% set sizeAttrs = "width=\"{{ item.image.max_width }}\" height=\"{{ item.image.max_height }}\" style=\"max-width: 100%; height: auto;\"" %}
       {% endif %} #}
-      {% set loadingAttr = item.image.loading != "disabled" ? "loading=\"{{ item.image.loading }}\"" : "" %}
+      {% set loadingAttr = item.image.loading != "disabled" ? "loading=\"{{ item.image.loading }}\"" :  "" %}
       {# <img src="{{ item.image.src }}" alt="{{ item.image.alt }}" {{ loadingAttr }} {{ sizeAttrs }} /> #}
       <img
       srcset="{{ resize_image_url(item.image.src, 288) }}288w,{{ resize_image_url(item.image.src, 468) }}468w,{{ resize_image_url(item.image.src, 736) }}736w,{{ resize_image_url(item.image.src, 928) }}928w"
