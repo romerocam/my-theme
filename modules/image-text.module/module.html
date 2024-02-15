@@ -2,7 +2,7 @@
 <section id="first-section" class="image-text">
   {% if module.image_field.src %}
 
-    {% set loadingAttr = module.image_field.loading != "disabled" ? "loading=\"{{ module.image_field.loading }}\" " : "" %}
+    {% set loadingAttr = module.image_field.loading != "disabled" ? "loading=\"{{ module.image_field.loading }}\"" : "" %}
     <img
       srcset="{{ resize_image_url(module.image_field.src, 288) }}288w,{{ resize_image_url(module.image_field.src, 468) }}468w,{{ resize_image_url(module.image_field.src, 736) }}736w,{{ resize_image_url(module.image_field.src, 928) }}928w"
       sizes="(max-width: 320px) 288px,(max-width: 500px) 468px,(max-width: 768px) 288px, 736px, 928px"
